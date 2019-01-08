@@ -7,7 +7,3 @@ end
 def square_array_with_collect(numbers)
   squared_elements = numbers.collect {|x| x ** 2}
 end
-
-def another_square_array_with_collect(numbers)
-  squared_elements = numbers.collect {|x| x ** 2}
-end
