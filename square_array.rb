@@ -1,7 +1,5 @@
 def square_array(numbers)
-  new_numbers = []
+  numbers.map! {|num| num ** 2}
   numbers.each do |num|
-  new_numbers << (num ** 2)
   end
-  return new_numbers
 end
