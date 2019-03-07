@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  sq=[]
+  array.each do |n|
+    sq<<(n**2)
+  end
+  sq
 end
