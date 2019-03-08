@@ -1,3 +1,7 @@
+array = [1,2,3]
+
 def square_array(array)
-  # your code here
+  num_squared = []
+  array.each{|x| num_squared << x**2}
+  num_squared
 end
