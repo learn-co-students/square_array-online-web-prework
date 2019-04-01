@@ -1,6 +1,7 @@
 def square_array(array)
-  array.each { |x| x**2 }
+  new_array = []
+  array.each do |x|
+    new_array.push(x*=x)
+  end
+  new_array
 end
-
-print square_array([1,2,3])
-print "\n"
