@@ -1,3 +1,3 @@
-def square_array(array)
-  # your code here
+def Square_array 
+  Numbers = [1,2,3,4]
 end
