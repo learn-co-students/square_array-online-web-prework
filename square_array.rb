@@ -1,3 +1,7 @@
 def square_array(array)
-	array.each {|x| print x**2, " "  }
+	newarr = []
+	array.each do |x|
+	  newarr << x**2
+	end
+	newarr
 end
