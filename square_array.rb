@@ -1,3 +1,12 @@
 def square_array(array)
-  # your code here
+  
+  narray = []
+  array.each  do |x|
+  
+    narray << x ** 2
+  
+  end
+  
+  narray
+  
 end
