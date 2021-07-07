@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  letters = ["a", "b", "c"]
+  letters.each do {|x| print x, "--"}
+    puts "pronouncing the #{x}"
 end
